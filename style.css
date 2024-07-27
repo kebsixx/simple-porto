@@ -8,7 +8,7 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  letter-spacing: 4px;
+  letter-spacing: .4px;
 }
 
 :root {
@@ -60,7 +60,7 @@ p {
 }
 
 .heading-p {
-  padding-top: 6rem;
+  padding-top: 9rem;
 }
 
 a {
@@ -111,12 +111,12 @@ img {
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1100px;
   width: 90%;
 }
 
 nav {
-  height: 5rem;
+  height: 8rem;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -124,4 +124,23 @@ nav {
   width: 100%;
   display: grid;
   place-items: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  font-size: 32px;
+  color: var(--color-black);
+  text-decoration: none !important;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
