@@ -197,6 +197,10 @@ header {
 
 /* About */
 
+#about {
+  margin-bottom: 5rem;
+}
+
 .about-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
