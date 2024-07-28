@@ -212,3 +212,52 @@ header {
 .about-right p {
   margin: 2rem 0;
 }
+
+/* Experience */
+
+section {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  right: 10%;
+  transition: var(--transition);
+}
+.arrow:hover {
+  margin-top: .5rem;
+}
+
+#experiences {
+  margin-bottom: 10rem;
+}
+
+.experience-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.experience-box {
+  border: 1px solid var(--color-dark-variant);
+  border-radius: 30px;
+  padding: 24px;
+}
+
+.experience-box h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.ex-div {
+  margin-left: 1rem;
+  display: flex;
+  gap: 20px;
+}
