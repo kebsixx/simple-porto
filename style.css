@@ -112,6 +112,26 @@ img {
   display: block;
 }
 
+.div-icon-link {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--color-dark-variant);
+  border-radius: 50%;
+  transition: var(--transition);
+}
+
+.icon-link:hover {
+  background-color: #a3a3a3;
+}
+
 .icon1 {
   width: 32px;
   height: max-content;
