@@ -72,7 +72,7 @@ a {
 }
 a:hover {
   color: var(--color-dark);
-  text-decoration-color: var(--color-dark-variant);
+  text-decoration-color: var(--color-dark-variant) !important;
   text-underline-offset: 1rem;
   text-decoration: underline;
 }
