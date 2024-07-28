@@ -404,6 +404,7 @@ footer .nav-links {
     gap: 20px;
   }
   .ex-div {
+    margin-left: 0;
     gap: 10px;
   }
   /* Projects */
